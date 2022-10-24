@@ -1,0 +1,39 @@
+percorre grafo com DFS
+ao encontrar nó na lista T, nova busca a partir dele até encontrar próximos
+terminar ao encontrar todos ou não tiver mais nós visitados
+
+
+
+
+Gres = Grafo()
+
+func procura(G, I, V)
+    se V em verts
+        Gres.V += V
+    end
+
+    para A in I
+
+    end
+end
+
+
+
+IDÉIAS:
+
+
+
+Depth First Search começando de um vértice da lista de entrada
+Passa por todos, se encontra outro vertice da lista registra o caminho como permanente,
+continua procurando outros vértices
+
+
+
+
+
+1) Start with a subtree T consisting of 
+   one given terminal vertex
+2) While T does not span all terminals
+   a) Select a terminal x not in T that is closest 
+      to a vertex in T.
+   b) Add to T the shortest path that connects x with T
